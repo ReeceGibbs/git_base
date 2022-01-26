@@ -1,0 +1,21 @@
+{
+  "name": "main-project",
+  "version": "1.0.0",
+  "description": "Level 3 - Task 30 - Compulsory Task 1",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "postinstall": "cd front-end && npm install"
+  },
+  "author": "Reece Gibbs",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "helmet": "5.0.2",
+    "node-fetch": "2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "postinstall": "^0.7.4"
+  }
+}

@@ -1,0 +1,32 @@
+/* the custom stylesheet for our user component */
+.user-card {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+    border-style: none;
+}
+
+.user-card-img {
+    height: 220px;
+}
+
+.user-card-img:hover {
+    cursor: pointer;
+}
+
+.user-card-body {
+    background-color: #2d4957;
+}
+
+.username {
+    color: #CC4BC2;
+    text-decoration: none;
+}
+
+.spinner-column {
+    text-align: center;
+}
+
+.user-spinner {
+    margin: 5px 0;
+}

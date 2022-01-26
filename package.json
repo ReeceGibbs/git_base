@@ -1,0 +1,27 @@
+{
+  "name": "project-setup",
+  "version": "1.0.0",
+  "description": "Level 3 - Task 30 - Compulsory Task 1",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "cd main-project && npm install",
+    "back-end": "npm start --prefix main-project",
+    "front-end": "npm start --prefix main-project/front-end",
+    "start:dev": "concurrently \"npm run back-end\" \"npm run front-end\"",
+    "test": "jest"
+  },
+  "author": "Reece Gibbs",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.0.0",
+    "jest": "27.4.7",
+    "postinstall": "^0.7.4",
+    "supertest": "6.2.2"
+  },
+  "devDependencies": {
+    "@babel/core": "7.16.12",
+    "@babel/preset-env": "7.16.11",
+    "babel-jest": "27.4.6",
+    "jest-fetch-mock": "3.0.3"
+  }
+}

@@ -1,0 +1,29 @@
+/* our global stylesheet */
+.content {
+    margin-top: 50px;
+}
+
+.error-message {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.spinner {
+    margin: 30% 50%;
+}
+
+.green {
+    color: #00F0B5;
+}
+
+.white {
+    color: white;
+}
+
+.blue {
+    color: skyblue;
+}
+
+.yellow {
+    color: #F18F01;
+}

@@ -1,0 +1,16 @@
+/* stylesheet for our repo details component */
+.right {
+    float: right;
+}
+
+.modal-body {
+    background-color: #263238;
+}
+
+.repo-details {
+    background-color: #2d4957;
+}
+
+.commit-details {
+    background-color: #2d4957;
+}
