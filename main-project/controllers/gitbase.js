@@ -7,8 +7,8 @@
 const fetch = require('node-fetch');
 const gitHubBaseUrl = process.env.GITHUB_BASE_URL || 'https://api.github.com';
 const gitLabBaseUrl = process.env.GITLAB_BASE_URL || 'https://gitlab.com/api/v4';
-const gitHubAccessToken = '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';
-const gitLabAccessToken = 'glpat-6ssysGeNyW6xThgRXCv-';
+const gitHubAccessToken = process.env.GH_ACCESS;
+const gitLabAccessToken = process.env.GL_ACCESS;
 
 /**
  * this function will grab a user list from by either using a username or just getting a list of all users
